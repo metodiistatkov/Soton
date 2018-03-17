@@ -1,0 +1,53 @@
+Completed sections from the coursework:
+Part1
+Part2
+Part3
+Part4
+Part5
+Part6
+Part7
+Part8
+
+Outputs:
+for Test1 the decoded message that I am getting is "BADGER";
+for Test2 the decoded message that I am getting is "Snake";
+for Test3 the decoded message that I am getting is "THEQUICKBROWNFOXJUMPEDOVERTHELAZYDOG";
+
+On the Bombe part the outputs that I get from each challenge are:
+
+Challenge1: 
+TSISYTASSYGIVEMFYOURANSWERTO Plugs:[D-B][S-A]
+TAISYTAISYGIVEMEYOUMANSWERTO Plugs:[D-C][S-A]
+TAISYTAISYDIVEMEYOURANSWERTO Plugs:[D-G][S-A]
+TAISYTAISYGIVEMEYOURANSWERTO Plugs:[D-H][S-A]
+TADSYTADSYGDVEMEYOURANSWERTS Plugs:[D-I][S-A]
+TAISYTAISYGIVEMEYOURANSWERTO Plugs:[D-K][S-A]
+TAISYTAISYGIVEMEYOTRANSWERTO Plugs:[D-L][S-A]
+TAISYTAISYGIVEDEYOURANSWERTO Plugs:[D-M][S-A]
+TAISYTAISYGIVESEYDURANSWERTD Plugs:[D-O][S-A]
+DAISYDAISYGIVEMEYOURANSWERDO Plugs:[D-T][S-A]
+TAISYTAISYGIVNMEYODRANSWERTO Plugs:[D-U][S-A]
+TAISYIAISYGBDEMEYOURANSWERTO Plugs:[D-V][S-A]
+TAISYTAISYGIVEMESOURANSWERTO Plugs:[D-X][S-A]
+TATSYTAISYGIVEMEYOURANSWERTO Plugs:[D-Z][S-A] 
+
+Challenge2:
+WELLALWAYSBETOGETHERHOWEVERFARITSEEMSWELLALWAYSBETOGETHERTOGETHERINELECTRICDREAMS
+Initial position of first rotor:3; Initial position of second rotor:9; Initial position of third rotor:15
+
+Challenge3:
+ILOVECOFFEEILOVETEAILOVETHEJAVAJIVEANDITLOVESME
+Type of first rotor:V; Type of second rotor:III; Type of third rotor:II
+
+EXTENSION:
+I have also worked on an extension. It is created in a new class (however it is still invoked in the main method) and it is called "BombeExtension".
+The way that it works is that instead of checking for a specific hint in the decoded messages, the program reads from a text file, called "dictionary_extension", where certain words are stored (as in a dictionary), and if two or more of the words from the text file appear in the decoded messages,
+the message, the words contained, and certain configurations of the machine are displayed. The reason why the check is performed only if two or more words are contained is because if there is only one word it might be just a coincidence. 
+
+
+HOW TO RUN THE CODE:
+I have created the main method in a separate class called "Main.java". This is where all tests are invoked and the extension as well.
+So the code is run by compiling this class:
+1. Creating a path
+2. typing: "javac Main.java"
+3. typing: "java Main"

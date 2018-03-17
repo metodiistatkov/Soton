@@ -1,0 +1,9 @@
+animal
+answer
+base
+word
+give
+tea
+coffee
+electric
+dream
